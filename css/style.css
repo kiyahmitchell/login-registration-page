@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main.account-ui {
+  height: 100vh;
+  background: url("/images/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 800px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  backdrop-filter: blur(15px);
+}
+
+.container h1 {
+  text-align: center;
+  margin: 15px;
+  font-size: 36px;
+}
+
+.input-box {
+  border-radius: 40px;
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  margin: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+input:focus {
+  border: 2px solid #061067;
+}
+
+.forgot {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #fff;
+}
+
+.forgot-password:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: #333;
+}
+
+button:hover {
+  background-color: #061067ce;
+  color: #fff;
+}
+
+.register-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.register-link:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.terms-link {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.terms-link:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* Terms and Conditions Page Styling */
+.terms-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.terms-page h1 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.terms-text {
+  width: 900px;
+}

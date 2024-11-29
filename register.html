@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an Account</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <main class="account-ui">
+      <div class="container">
+        <h1>Create an Account</h1>
+        <form action="">
+          <input
+            class="input-box"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required />
+          <input
+            class="input-box"
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Choose a Password"
+            pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+            title="Password must be at least 8 characters and include at least one number, one uppercase letter, and one lowercase letter."
+            required />
+          <p>
+            <input
+              type="checkbox"
+              id="terms-agree"
+              name="terms-agree"
+              required />
+            I accept the <a class="terms-link" href="#">terms and conditions</a>
+          </p>
+
+          <button id="submit" type="submit">Create Account</button>
+
+          <p>
+            Already have an account?
+            <a class="register-link" href="index.html">Login in here</a>
+          </p>
+        </form>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
