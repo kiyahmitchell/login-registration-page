@@ -45,17 +45,17 @@ The project demonstrates a clean, responsive design with HTML and CSS, focusing 
 
 ### Login Page
 
-![Login Page Preview](/screenshots/login-page.png)
+![Login Page Preview](/screenshots/Login-Page.png)
 A clean and minimalist login interface with responsive design.
 
 ### Registration Page
 
-![Registration Page Preview](/screenshots/registration-page.png)
+![Registration Page Preview](/screenshots/Registration-Page.png)
 Comprehensive registration form with input fields and validation.
 
 ### Forgot Password Page
 
-![Forgot Password Page Preview](/screenshots/forgot-password-page.png)
+![Forgot Password Page Preview](/screenshots/Forgot-Password-Page.png)
 Intuitive password recovery process with clear instructions.
 
 ## Technologies Used
