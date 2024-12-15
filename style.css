@@ -9,7 +9,7 @@
 
 main.account-ui {
   height: 100vh;
-  background: url("/images/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
+  background: url("./images/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
